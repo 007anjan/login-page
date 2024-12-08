@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign_up">
+            <form action="#">
+                <h1>Create Acount</h1>
+                <div class="social">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <span>
+                    or use your email for registraion
+                </span>
+                <div class="inp_icon">
+                    <i class="fa-solid fa-user"></i><input class="inp_field" type="text" placeholder="Name">
+                    <i class="fa-solid fa-user"></i><input class="inp_field" type="text" placeholder="Username">
+                    <i class="fa-solid fa-envelope"></i><input class="inp_field" type="email" placeholder="Email">
+                    <i id="icn" class="fa-solid fa-eye-slash" onclick="tap()"></i><input class="inp_field" id="pass" type="password" placeholder="Password"> 
+                </div>
+                <button>
+                    Sign Up
+                </button>
+            </form>
+        </div>
+        <div class="form-container sign_in">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <span>
+                    or use your username password
+                </span>
+                <div class="inp_icon">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="inp_field" type="text" placeholder="Username">
+                    <i id="ic" class="fa-solid fa-eye-slash" onclick="taps()"></i><input class="inp_field" id="pas" type="password" placeholder="Password">  
+                </div>
+                <a href="#">
+                    Forget Your Password?
+                </a>
+                <button>
+                    Sign In
+                </button>
+            </form>
+        </div>
+
+
+        <div class="toggle-cont">
+            <div class="toggle">
+                <div class="toggle-pan left">
+                    <h1>welcome</h1>
+                    <p>Enter your personal details to use all of site features.</p>
+                    <button class="hidden" id="log-in">Sign In</button>
+                </div>
+                <div class="toggle-pan right">
+                    <h1>Hello!</h1>
+                    <p>Register with your personal details to use all of site features.</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- <i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-image"></i>
+<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-phone"></i>
+<i class="fa-solid fa-envelope"></i>
+<i class="fa-solid fa-eye-slash"></i>
+<i class="fa-solid fa-eye"></i> -->
